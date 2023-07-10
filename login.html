@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-top: 200px;
+            background-color: rgb(52, 4, 80);
+        }
+        fieldset{
+            width: 40px;
+            height: 200px;
+            background-color: rgb(170, 177, 177);
+            border-radius: 23px;
+        }
+        input{
+            font-size: 24px;
+        }
+        button{
+            background-color: rgb(47, 2, 2);
+            margin-top: 20px;
+            font-size: 20px;
+            border-radius: 23px;
+            margin-bottom: 5px;
+            font-weight: san-serif;
+            box-sizing: border-box;
+        }
+        button:hover{
+            background-color: blueviolet;
+        }
+
+        h1{
+            font-weight: bold;
+            font-weight: bolder;
+            font-size: 20px;
+            color: rgb(7, 58, 58);
+        }
+    
+
+    </style>
+</head>
+<body><Form onsubmit="submit()"><center><fieldset>
+    <h1>sign up Form</h1>
+   username<input type="text" id="name" ><br>
+    password<input type="password" id="pass"><br>
+    <button id="btn" onclick="send()">Send</button><br>
+</fieldset></center></Form></body>
+<script src="app.js"></script>
+</html>

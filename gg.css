@@ -1,0 +1,29 @@
+footer{
+	background-color: black;
+	color: white;
+}
+footer a, footer a:hover{
+	color: white;
+	text-decoration: none;
+}
+body{
+	user-select: none;
+}
+.navbar-brand{
+	color: white;
+}
+
+ul a{
+	
+	font-weight: bold;
+}
+
+.nav-items a{
+	font-weight: bold;
+	color: white;
+	user-select: none;
+	cursor: pointer;
+}
+#second{
+     height: 100vh;
+}
